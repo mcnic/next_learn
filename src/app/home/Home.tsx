@@ -6,9 +6,7 @@ const kaushan = Kaushan_Script({
   subsets: ["latin"],
 });
 
-type Props = {};
-
-const Home: FC = (props: Props) => {
+const Home: FC = (props: any) => {
   return <div className={kaushan.className}>Home</div>;
 };
 
